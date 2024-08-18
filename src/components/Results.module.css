@@ -1,4 +1,4 @@
-.result {
+.results {
   max-width: 50rem;
   margin: 2rem auto;
   padding: 1rem;
@@ -7,17 +7,13 @@
   text-align: right;
 }
 
-.result thead {
+.results thead {
   font-size: 0.7rem;
   color: #83e6c0;
 }
 
-.result tbody {
+.results tbody {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 0.85rem;
   color: #c2e9e0;
 }
-
-/* .result th, td {
-  padding: 0 2rem 0 2rem;
-} */

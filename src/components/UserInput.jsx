@@ -1,10 +1,10 @@
-import './UserInput.css';
+import classes from './UserInput.module.css';
 import InputField from './InputField';
 
 function UserInput({ userInputs, onInputChange }) {
   return (
-    <section className="userInput">
-      <div className="inputGroup">
+    <section className={classes.userInput}>
+      <div className={classes.inputGroup}>
         <InputField
           label="Initial Investment"
           value={userInputs.initialInvestment}
@@ -16,7 +16,7 @@ function UserInput({ userInputs, onInputChange }) {
           onChange={(value) => onInputChange('annualInvestment', value)}
         />
       </div>
-      <div className="inputGroup">
+      <div className={classes.inputGroup}>
         <InputField
           label="Expected Return"
           value={userInputs.expectedReturn}

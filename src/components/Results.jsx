@@ -1,5 +1,5 @@
 import { formatter } from '../utils/investment';
-import './Results.css';
+import classes from './Results.module.css';
 
 function Results({ records }) {
   let initialInvestment = 0;
@@ -13,7 +13,7 @@ function Results({ records }) {
 
   return (
     <section>
-      <table className="result">
+      <table className={classes.results}>
         <thead>
           <tr>
             <th>Year</th>

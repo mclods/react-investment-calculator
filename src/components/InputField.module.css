@@ -1,17 +1,3 @@
-.userInput {
-  padding: 1rem;
-  max-width: 30rem;
-  margin: 2rem auto;
-  border-radius: 4px;
-  background: linear-gradient(180deg, #307e6c, #2b996d);
-}
-
-.inputGroup {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 1.5rem;
-}
-
 .inputField label {
   display: block;
   margin-bottom: 0.25rem;

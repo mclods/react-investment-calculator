@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import classes from './App.module.css';
 import UserInput from './components/UserInput';
 import { calculateInvestmentResults } from './utils/investment';
 import Results from './components/Results';
@@ -34,7 +34,7 @@ function App() {
       {inputsAreValid ? (
         <Results records={investmentResults} />
       ) : (
-        <p className="center">
+        <p className={classes.center}>
           Please provide valid inputs and duration greater than zero.
         </p>
       )}
